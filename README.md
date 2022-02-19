@@ -1,5 +1,5 @@
 Original Warning by Jetup13 (I stand by it)
-RG351V-Benny-PS5
+RG351V-Benny-PS2
 
 Emulationstation theme almost entirely using videos
 Supports screen sizes: RG351p/m/v, RK2020, RGB10, and OGA
