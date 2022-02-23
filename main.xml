@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+   
+<feature supported="carousel">
+   <view name="system">
+      <carousel name="systemcarousel">
+        <type>vertical</type>
+        <pos>0.45 0.15</pos>
+        <logoAlignment>left</logoAlignment>         
+        <size>1.2 0.6</size>
+        <logoScale>1.5</logoScale>
+        <zIndex>5</zIndex>          
+        <logoSize>0.3 0.2</logoSize>
+        <color>00000000</color>
+        <maxLogoCount>3</maxLogoCount>
+        <scrollSound>./_inc/sounds/Move.wav</scrollSound>
+<selectedColor>3ad6f9</selectedColor>
+         <primaryColor>ffffff99</primaryColor>
+<sound name="launch">
+		<path>./select.wav</path>
+	</sound>
+<menuScrollSound>./../sounds/GS25.wav</menuScrollSound>
+    <menuSelectSound>./_inc/sounds/game_launch.wav</menuSelectSound>
+    <menuBackSound>./../sounds/GS28.wav</menuBackSound>
+    <menuOpenSound>./../sounds/SNES5.wav</menuOpenSound>         
+      </carousel>
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>2</zIndex>                 
+      </image>  
+      <image name="background_bottom" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>4</zIndex>                 
+      </image>                   
+      <text name="systemInfo">     
+         <pos>0.23 0.01</pos>
+         <backgroundColor>00000000</backgroundColor>
+         <color>3ad6f900</color>
+         <fontSize>0.03</fontSize>
+         <fontPath>./_inc/fonts/FreeSans-LrmZ.ttf</fontPath>
+         <zIndex>5</zIndex>	     
+      </text> 
+      <sound name="launch">
+		<path>./select.wav</path>
+	</sound> 
+<text name="logoText">
+            <fontPath>./_inc/fonts/FreeSans-LrmZ.ttf</fontPath>
+            <color>ffffff</color>
+            <origin>0.5 0</origin>
+            <fontSize>0.06</fontSize>
+            <selectedColor>3ad6f9</selectedColor>
+            <primaryColor>ffffff99</primaryColor>
+        </text>  
+         <image name="gridBG" extra="true">
+         <path>./_inc/images/bottom_help.png</path>
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <zIndex>9</zIndex>         
+      </image>         
+   </view>
+</feature>
+
+   <view name="system">
+      <helpsystem name="help">
+         <fontPath>./_inc/fonts/FreeSans-LrmZ.ttf</fontPath>     
+         <textColor>ffffff</textColor>
+         <iconColor>ffffff</iconColor>
+      </helpsystem>
+   </view>  
+
+<view name="system">
+	<sound name="scroll">
+		<path>./system_scroll.wav</path>
+	</sound>
+	<sound name="launch">
+		<path>./system_launch.wav</path>
+	</sound>
+</view>
+
+   <view name="detailed,video,basic,grid">
+      <helpsystem name="help">
+         <fontPath>./_inc/fonts/FreeSans-LrmZ.ttf</fontPath>     
+         <textColor>ffffff00</textColor>
+         <iconColor>ffffff00</iconColor>
+      </helpsystem>
+   </view>  
+
+   <view name="basic,detailed,video">
+      <textlist name="gamelist">      
+         <selectorColor>00000000</selectorColor>
+         <selectedColor>3ad6f9</selectedColor>
+         <primaryColor>ffffff99</primaryColor>
+         <secondaryColor>ffff0099</secondaryColor>
+         <fontPath>./_inc/fonts/FreeSans-LrmZ.ttf</fontPath>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound>./_inc/sounds/Move.wav</scrollSound>
+         <backSound>./_inc/sounds/back.wav</backSound>
+         <zIndex>3</zIndex>                          
+      </textlist>
+<sound name="systemscroll">
+			<path>./sounds/systemscroll.wav</path>
+		</sound>
+		
+		<sound name="systemselect">
+			<path>./sounds/systemselect.wav</path>
+		</sound>
+		
+
+		
+		<sound name="back">
+			<path>./sounds/back.wav</path>
+		</sound>
+		
+		<sound name="launch">
+			<path>./art/launch.wav</path>
+		</sound>
+		
+		<sound name="menuopen">
+			<path>./sounds/menu.wav</path>
+		</sound>
+		
+		 
+		 <sound name="launch">
+			<path>./sounds/se_sys_click_game.wav</path>
+		</sound>
+   </view> 
+   
+   <view name="detailed,video">
+      <textlist name="gamelist">                          
+         <pos>0.019 0.015</pos>
+         <size>0.465 1</size>
+         <alignment>left</alignment>                       
+      </textlist>
+   </view>
+   
+   <view name="basic">
+      <textlist name="gamelist">                          
+         <pos>0.2 0.19</pos>
+         <size>.6 0.74</size>
+         <alignment>center</alignment>                       
+      </textlist>
+   </view>
+   
+   <view name="basic">
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <zIndex>1</zIndex>          
+      </image>                
+   </view> 
+    
+   <view name="detailed,video">
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <zIndex>1</zIndex>         
+      </image>                
+   </view>     
+   
+   <view name="detailed">
+      <image name="md_image">
+         <origin>0.5 0.5</origin>
+         <pos>0.748 0.50</pos>
+         <maxSize>0.45 0.45</maxSize>
+         <zIndex>2</zIndex>         
+      </image>      
+   </view>
+
+   <view name="video">   
+<image name="md_image">
+         <origin>0.5 0.5</origin>
+         <pos>0.748 0.50</pos>
+         <maxSize>0.45 0.45</maxSize>
+         <zIndex>2</zIndex>         
+      </image>  
+      <video name="md_video">
+	  <origin>0.5 1</origin>
+	  <pos>0.5 1</pos>
+          <size>1 1</size>
+	  <maxSize>1 1</maxSize>
+	  <delay>5</delay>
+	  <showSnapshotNoVideo>false</showSnapshotNoVideo>
+	  <showSnapshotDelay>false</showSnapshotDelay>
+          <zIndex>999</zIndex>
+	</video>           
+   </view>
+   
+   <view name="detailed,video">
+      <text name="md_lbl_releasedate, md_lbl_players, md_lbl_rating, md_rating, md_players, md_releasedate">
+         <fontPath>./_inc/fonts/FreeSans-LrmZ.ttf</fontPath>
+         <fontSize>0.027</fontSize>
+      </text>
+      <text name="md_lbl_rating">
+         <origin>0.5 0.5</origin>
+         <pos>1.05 0.85</pos>
+         <size>0.6 0.6</size>
+         <color>ffffff</color>
+         <zIndex>3</zIndex>
+      </text>   
+      <rating name="md_rating">
+         <origin>0.5 0.5</origin>       
+         <pos>0.87 0.85</pos>
+         <size>0.03 0.03</size>
+         <zIndex>3</zIndex>
+         <filledPath>./_inc/images/star_full.png</filledPath>
+         <unfilledPath>./_inc/images/star_hollow.png</unfilledPath>
+      </rating>
+      <text name="md_lbl_players">
+         <origin>0.5 0.5</origin>
+         <pos>1.05 0.77</pos>
+         <size>0.6 0.6</size>
+         <color>ffffff</color>
+         <zIndex>3</zIndex> 
+      </text>
+      <text name="md_players">
+         <origin>0.5 0.5</origin>
+         <pos>1.172 0.77</pos>
+         <size>0.6 0.6</size>
+         <color>ffffff</color>
+         <zIndex>3</zIndex>
+      </text>
+      <text name="md_lbl_releasedate">
+         <origin>0.5 0.5</origin>
+         <pos>1.05 0.81</pos>
+         <size>0.6 0.6</size>
+         <color>ffffff</color>
+         <zIndex>3</zIndex>                  
+      </text>
+      <datetime name="md_releasedate">
+         <origin>0.5 0.5</origin>
+         <pos>1.172 0.81</pos>
+		 <format>%Y</format>
+         <size>0.6 0.6</size>
+         <color>ffffff</color>
+         <zIndex>3</zIndex>         
+      </datetime>
+      <image name="md_marquee">
+         <pos>0.615 0.81</pos>
+         <origin>0.5 0.5</origin>
+         <maxSize>0.2 0.4</maxSize>
+         <zIndex>99</zIndex>         
+      </image>
+      
+   </view>
+    <view name="menu">
+    <menuBackground name="menubg">
+      <color>000000</color>
+    </menuBackground>
+	<menuText name="menutext, menutitle">
+      <fontPath>./_inc/fonts/FreeSans-LrmZ.ttf</fontPath>
+      <fontSize>.039</fontSize>
+      <color>ffffff</color>
+    </menuText>
+    <menuTextEdit name="menutextedit">
+      <inactive>./_inc/images/textinput_inactive.png</inactive>
+      <active>./_inc/images/textinput_active.png</active>
+    </menuTextEdit>
+  </view>
+
+<view name="grid">
+	<imagegrid name="gamegrid">
+      <pos>0.1 0.18</pos>
+      <size>0.8 0.6</size>
+      <scrollSound>./_inc/sounds/Move.wav</scrollSound>
+      <autoLayout>4 3</autoLayout>
+      <autoLayoutSelectedZoom>1.6</autoLayoutSelectedZoom>
+      <animateSelection>false</animateSelection>
+      <scrollDirection>vertical</scrollDirection>
+      <centerSelection>true</centerSelection>
+      <scrollLoop>true</scrollLoop>
+	  <zIndex>2</zIndex>
+    </imagegrid>
+    <image name="gridBG" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>1</zIndex>                 
+      </image> 
+	
+    <gridtile name="default">
+      <backgroundColor>FFFFFF00</backgroundColor>
+      <backgroundCornerSize>9 9</backgroundCornerSize>
+      <selectionMode>image</selectionMode>
+      <padding>5 5</padding>
+      <imageColor>FFFFFF90</imageColor>
+      <reflexion>0.0 0.0</reflexion>
+	  <zIndex>2</zIndex>
+    </gridtile>
+    <video name="md_video">
+	  <origin>0.5 1</origin>
+	  <pos>0.5 1</pos>
+          <size>1 1</size>
+	  <maxSize>1 1</maxSize>
+	  <delay>5</delay>
+	  <showSnapshotNoVideo>false</showSnapshotNoVideo>
+	  <showSnapshotDelay>false</showSnapshotDelay>
+          <zIndex>999</zIndex>
+	</video>
+	
+    <gridtile name="selected">
+      <backgroundColor>FFFFFF00</backgroundColor>
+      <imageColor>FFFFFFFF</imageColor>
+	  <zIndex>2</zIndex>
+    </gridtile>
+	
+	<text name="md_name">
+      <pos>0.45 -0.15</pos>
+	  <fontPath>./_inc/fonts/SST-Medium.ttf</fontPath>
+      <fontSize>0.03</fontSize>
+      <backgroundColor>00000000</backgroundColor>
+      <size>0.5 0.5</size>
+	  <forceUppercase>1</forceUppercase>
+      <alignment>right</alignment>
+	  <zIndex>3</zIndex>
+	  <color>ffff00</color>
+    </text>
+
+       <image name="gridBG" extra="true">
+         <path>./_inc/images/gridBG.png</path>
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <zIndex>1</zIndex>         
+      </image>  
+        
+        <text name="logoText">
+            <fontPath>./_inc/fonts/SST-Medium.ttf</fontPath>
+            <color>ffffff</color>
+            <pos>0.044 -0.15</pos>
+            <fontSize>0.03</fontSize>
+             <forceUppercase>1</forceUppercase>
+            <zIndex>3</zIndex>
+            <size>0.4 0.5</size>
+            <alignment>left</alignment>
+        </text>
+
+<image name="bottomHelp_gridview" extra="true">
+         <path>./_inc/images/bottomHelp_gridview.png</path>
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <zIndex>9</zIndex>         
+      </image> 
+        
+         
+	
+</view>
+      
+  
+</theme>

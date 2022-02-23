@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+ 
+   <view name="basic,detailed,video">
+      <textlist name="gamelist">      
+         <fontSize>0.044</fontSize>                        
+      </textlist>
+   </view> 
+
+</theme>
