@@ -14,22 +14,102 @@ version         1.9
    <view name="system">
       <helpsystem name="help">
          <fontSize>0.035</fontSize>     
-         <pos>1 0.948</pos>      
+         <pos>1 0.948</pos>
       </helpsystem>
+<image name="bottomHelp_gridview" extra="true">
+         <path>./_inc/images/bottom_help_320.png</path>
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <zIndex>9</zIndex>         
+      </image> 
 	  
 	  <image name="background_icon" extra="true">
          <origin>0 0</origin>
          <pos>-0.25 0</pos>
          <size>1.25 1</size>
       </image>
+
+<text name="logoText">
+            <fontPath>./_inc/fonts/FreeSans-LrmZ.ttf</fontPath>
+            <color>ffffff</color>
+            <origin>0.5 0</origin>
+            <fontSize>0.08</fontSize>
+            <selectedColor>3ad6f9</selectedColor>
+            <primaryColor>ffffff99</primaryColor>
+        </text>  
    </view>  
 
    <view name="detailed,video,basic">
       <helpsystem name="help">
-         <fontSize>0.030</fontSize>     
+         <fontSize>0.06</fontSize>     
          <pos>0.0001 0.948</pos>      
       </helpsystem>
+     <textlist name="gamelist">                          
+         <pos>0.019 0.015</pos>
+         <size>0.465 1</size>
+         <alignment>left</alignment>                       
+      </textlist>
    </view>
+<view name="detailed,video">
+<image name="md_marquee">
+         <pos>0.615 0.81</pos>
+         <origin>0.5 0.5</origin>
+         <maxSize>0.24 0.4</maxSize>
+         <zIndex>99</zIndex>         
+      </image>
+<text name="md_lbl_releasedate, md_lbl_players, md_lbl_rating, md_rating, md_players, md_releasedate">
+         <fontPath>./_inc/fonts/FreeSans-LrmZ.ttf</fontPath>
+         <fontSize>0.04</fontSize>
+      </text>
+<datetime name="md_releasedate">
+         <origin>0.5 0.5</origin>
+         <pos>1.2 0.81</pos>
+		 <format>%Y</format>
+         <size>0.6 0.6</size>
+         <color>ffffff</color>
+         <zIndex>3</zIndex>         
+      </datetime>
+<rating name="md_rating">
+         <origin>0.5 0.5</origin>       
+         <pos>0.87 0.85</pos>
+         <size>0.04 0.04</size>
+         <zIndex>3</zIndex>
+         <filledPath>./_inc/images/star_full.png</filledPath>
+         <unfilledPath>./_inc/images/star_hollow.png</unfilledPath>
+      </rating>
+</view>
 
+<view name="grid">
+<image name="bottomHelp_gridview" extra="true">
+         <path>./_inc/images/bottomHelp_gridview_320.png</path>
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <zIndex>9</zIndex>         
+      </image> 
+
+<text name="md_name">
+      <pos>0.45 -0.15</pos>
+	  <fontPath>./_inc/fonts/SST-Medium.ttf</fontPath>
+      <fontSize>0.04</fontSize>
+      <backgroundColor>00000000</backgroundColor>
+      <size>0.5 0.5</size>
+	  <forceUppercase>1</forceUppercase>
+      <alignment>right</alignment>
+	  <zIndex>3</zIndex>
+	  <color>ffff00</color>
+    </text>
+<text name="logoText">
+            <fontPath>./_inc/fonts/SST-Medium.ttf</fontPath>
+            <color>ffffff</color>
+            <pos>0.044 -0.15</pos>
+            <fontSize>0.04</fontSize>
+             <forceUppercase>1</forceUppercase>
+            <zIndex>3</zIndex>
+            <size>0.4 0.5</size>
+            <alignment>left</alignment>
+        </text>
+</view>
   
 </theme>
