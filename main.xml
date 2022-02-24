@@ -57,7 +57,6 @@
             <primaryColor>ffffff99</primaryColor>
         </text>  
          <image name="gridBG" extra="true">
-         <path>./_inc/images/bottom_help.png</path>
          <origin>0 0</origin>
          <pos>0 0</pos>
          <size>1 1</size>        
@@ -177,8 +176,8 @@
    <view name="video">   
 <image name="md_image">
          <origin>0.5 0.5</origin>
-         <pos>0.748 0.50</pos>
-         <maxSize>0.45 0.45</maxSize>
+         <pos>0.748 0.4</pos>
+         <maxSize>0.45 0.6</maxSize>
          <zIndex>2</zIndex>         
       </image>  
       <video name="md_video">
@@ -342,16 +341,6 @@
             <alignment>left</alignment>
         </text>
 
-<image name="bottomHelp_gridview" extra="true">
-         <path>./_inc/images/bottomHelp_gridview.png</path>
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>        
-         <zIndex>9</zIndex>         
-      </image> 
-        
-         
-	
 </view>
       
   

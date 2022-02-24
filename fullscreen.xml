@@ -14,8 +14,15 @@ version         1.9
    <view name="system">
       <helpsystem name="help">
          <fontSize>0.035</fontSize>     
-         <pos>1 0.948</pos>      
+         <pos>1 0.948</pos>
       </helpsystem>
+<image name="bottomHelp_gridview" extra="true">
+         <path>./_inc/images/bottom_help.png</path>
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <zIndex>9</zIndex>         
+      </image> 
 	  
 	  <image name="background_icon" extra="true">
          <origin>0 0</origin>
@@ -31,5 +38,14 @@ version         1.9
       </helpsystem>
    </view>
 
+<view name="grid">
+<image name="bottomHelp_gridview" extra="true">
+         <path>./_inc/images/bottomHelp_gridview.png</path>
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <zIndex>9</zIndex>         
+      </image> 
+</view>
   
 </theme>
