@@ -2,7 +2,7 @@ Original Warning by Jetup13 (I stand by it)
 RG351V-Benny-PS5
 
 Emulationstation theme almost entirely using videos
-Supports screen sizes: RG351V
+Supports screen sizes: RG351V M and P
 # Warning
 Due to the theme using mostly videos it might your device might appear slow or warmer. 
 Please keep this in mind. I would not recommend using this theme with continued usage. 
